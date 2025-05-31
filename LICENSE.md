@@ -1,4 +1,4 @@
-Copyright (c) 2020, The University of California, Merced. All rights reserved.
+Copyright (c) 2025, The University of California, Merced. All rights reserved.
 
 The Deep Learn Academy is developed by the team members of Prof.
 Xiaoyi Lu's group at The University of California, Merced.
