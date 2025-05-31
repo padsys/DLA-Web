@@ -1,3 +1,12 @@
+// Copyright (c) 2025, University of California, Merced. All rights reserved.
+
+// This file is part of the Deep Learn Academy software package developed by
+// the team members of Prof. Xiaoyi Lu's group (PADSYS Lab) at the University
+// of California, Merced.
+
+// For detailed copyright and licensing information, please refer to the license
+// file LICENSE in the top level directory.
+
 import Link from 'next/link'
 
 import { CheckIcon } from '@/components/CheckIcon'
