@@ -13,11 +13,8 @@ import { Container } from '@/components/Container'
 import { SectionHeading } from '@/components/SectionHeading'
 import abstractBackgroundImage from '@/images/resources/abstract-background.png'
 import figmaImage from '@/images/self_driving_aigen.png'
-// https://techxplore.com/news/2016-11-tesla-self-driving-car-eyes-road.html
 import videoPlayerImage from '@/images/robot_chess_aigen.png'
-// https://phys.org/news/2017-05-chess-playing-robot-star-taiwan-tech.html
 import discordImage from '@/images/chatgpt_aigen.png'
-// https://www.computerworld.com/article/3615039/two-years-of-chatgpt-the-conversation-that-never-ends.html
 
 const resources = [
   {

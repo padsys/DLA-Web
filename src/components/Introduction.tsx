@@ -21,9 +21,9 @@ export function Introduction() {
     >
       <Container className="text-lg tracking-tight text-slate-700">
         <p className="font-display text-4xl font-bold tracking-tight text-slate-900">
-          Deep Learn Academy is dedicated to teaching children how to make the
-          most of cutting-edge AI technology, sparking a critical interest in AI 
-          at an early stage.
+          Deep Learn Academy is dedicated to teaching children how to use and understand 
+          cutting-edge AI technology via exciting hands-on projects, sparking a critical 
+          interest in AI at an early stage.
         </p>
         <p className="mt-4">
           Provide your children with the head start necessary to foster a strong

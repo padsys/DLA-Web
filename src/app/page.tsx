@@ -6,6 +6,7 @@ import { Introduction } from '@/components/Introduction'
 import { NavBar } from '@/components/NavBar'
 import { Pricing } from '@/components/Pricing'
 import { Resources } from '@/components/Resources'
+import { Sponsors } from '@/components/Sponsors'
 import { Screencasts } from '@/components/Screencasts'
 import { TableOfContents } from '@/components/TableOfContents'
 import { Testimonial } from '@/components/Testimonial'
@@ -48,6 +49,7 @@ export default function Home() {
         </p>
       </Testimonial> */}
       <Resources />
+      <Sponsors />
       {/* <FreeChapters /> */}
       {/* <Pricing /> */}
       {/* <Testimonials /> */}

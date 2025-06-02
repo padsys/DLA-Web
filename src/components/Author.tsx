@@ -47,6 +47,7 @@ export function Author() {
               Author
             </SectionHeading> */}
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+              Organizers:
               <span className="block text-blue-600">PADSYS –</span> at UC Merced
             </p>
             <p className="mt-4 text-lg tracking-tight text-slate-700">
@@ -59,6 +60,126 @@ export function Author() {
               ready to explore the frontiers of AI and technology. 
               {/* Our team is excited to meet you—are you ready to join us? */}
             </p>
+            <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
+              <span className="block text-blue-600">Our Team</span>
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-32">
+
+            {/* Author 1 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="Xiaoyi Lu profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Xiaoyi Lu</h2>
+                <p className="mt-2 text-gray-600">Associate Professor</p>
+              </div>
+            </div>
+
+            {/* Author 2 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="Darren Ng profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Darren Ng</h2>
+                <p className="mt-2 text-gray-600">PhD Student</p>
+              </div>
+            </div>
+
+            {/* Author 3 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="Jane Doe profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Adam Weingram</h2>
+                <p className="mt-2 text-gray-600">PhD Student</p>
+              </div>
+            </div>
+
+            {/* Author 4 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="Alan Smith profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Aryana Nemum</h2>
+                <p className="mt-2 text-gray-600">UG Student</p>
+              </div>
+            </div>
+
+            {/* Author 5 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="Emily Johnson profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Still Ben</h2>
+                <p className="mt-2 text-gray-600">UG Student</p>
+              </div>
+            </div>
+
+            {/* Author 6 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="David Lee profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Jasleen</h2>
+                <p className="mt-2 text-gray-600">UG Student</p>
+              </div>
+            </div>
+
+            {/* Author 7 */}
+            <div className="flex flex-col items-center text-center">
+              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={authorImage}
+                  alt="David Lee profile"
+                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Nachiket Bidarkundi</h2>
+                <p className="mt-2 text-gray-600">HS Student</p>
+              </div>
+            </div>
+
+
+          </div>
+
             <p className="mt-8">
               <Link
                 href="https://padsys.org/"
