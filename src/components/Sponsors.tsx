@@ -6,28 +6,32 @@ import { Button } from '@/components/Button'
 
 export function Sponsors() {
   return (
-    <div className="bg-white py-1 px-5 text-center">
-        <h1 className="text-4xl font-bold text-gray-800 mb-6">Our Sponsors</h1>
+    <div className="flex flex-col items-center justify-center bg-white px-5 text-center">
+      <h1 className="text-4xl font-bold text-gray-800 mb-6">Our Sponsors</h1>
 
-        <div className="grid grid-cols-2 gap-0 items-center">
-            {/* Sponsor 1 */}
-            <Image
+      <div className="grid grid-cols-2 gap-4">
+        {/* Sponsor 1 */}
+        <div className="flex justify-center">
+          <Image
             src={nsf}
             alt="Sponsor 1"
-            width={0}
-            height={100}
+            width={350}
+            height={0}
             className="object-contain"
-            />
+          />
+        </div>
 
-            {/* Sponsor 2 */}
-            <Image
+        {/* Sponsor 2 */}
+        <div className="flex justify-center">
+          <Image
             src={ucm}
             alt="Sponsor 2"
-            width={0}
-            height={200}
+            width={200}
+            height={0}
             className="object-contain"
-            />
+          />
         </div>
+      </div>
 
         <h1 className="text-md font-bold text-gray-800 mt-10">
             If you are interested in sponsoring the Deep Learn Academy, please feel free to contact us.
