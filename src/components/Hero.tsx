@@ -14,24 +14,27 @@ import { Button } from '@/components/Button'
 import { GridPattern } from '@/components/GridPattern'
 import { StarRating } from '@/components/StarRating'
 import coverImage from '@/images/darren_DLA.png'
+import DLA_logo from '@/images/DLA_logo.png'
 
 function Testimonial() {
   return (
-    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
+    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left -translate-x-20">
       <div className="flex justify-center text-blue-600 lg:justify-start">
-        <StarRating />
+        <div className="w-50 h-20 flex-shrink-0">
+          <Image
+            src={DLA_logo}
+            alt="Logo"
+            width={500}
+            height={500}
+            className="object-contain"
+          />
+        </div>
       </div>
-      <blockquote className="mt-2">
+      <blockquote className="ml-55">
         <p className="font-display text-xl font-medium text-slate-900">
-          “My kid just can't stop creating GenAI bots in his room! Help!”
+          AI is the future for children—and children are the future of AI.
         </p>
       </blockquote>
-      <figcaption className="mt-2 text-sm text-slate-500">
-        <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Tiffany Solomon
-        </strong>
-        , Mom of Timmy, Age 4
-      </figcaption>
     </figure>
   )
 }
@@ -54,7 +57,7 @@ export function Hero() {
         </div>
         <div className="relative px-4 sm:px-6 lg:col-span-7 lg:pr-0 lg:pb-14 lg:pl-16 xl:pl-20">
           <div className="hidden lg:absolute lg:-top-32 lg:right-[-100vw] lg:bottom-0 lg:left-[-100vw] lg:block lg:bg-slate-100" />
-          {/* <Testimonial /> */}
+          <Testimonial />
         </div>
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
