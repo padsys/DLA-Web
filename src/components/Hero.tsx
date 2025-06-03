@@ -71,7 +71,7 @@ export function Hero() {
               <h1 className="font-display text-4xl sm:text-5xl font-extrabold text-slate-900 leading-tight">
                 Deep Learn <br />Academy
               </h1>
-              <div className="w-20 h-20 sm:w-28 sm:h-28 flex-shrink-0">
+              <div className="w-20 h-20 sm:w-30 sm:h-30 flex-shrink-0">
                 <Image
                   src={DLA_logo}
                   alt="Logo"
