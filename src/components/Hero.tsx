@@ -32,7 +32,7 @@ function Testimonial() {
       </div>
       <blockquote className="ml-0">
         <p className="font-display text-xl font-medium text-slate-900">
-          "AI is the future for children—and children are the future of AI"
+          "AI is the future for children—and children are the future of AI."
         </p>
       </blockquote>
       <figcaption className="mt-2 ml-0 text-sm text-slate-500">
@@ -71,7 +71,7 @@ export function Hero() {
               <h1 className="font-display text-4xl sm:text-5xl font-extrabold text-slate-900 leading-tight">
                 Deep Learn <br />Academy
               </h1>
-              <div className="w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0">
+              <div className="w-20 h-20 sm:w-28 sm:h-28 flex-shrink-0">
                 <Image
                   src={DLA_logo}
                   alt="Logo"
