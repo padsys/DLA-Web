@@ -1,6 +1,6 @@
 // pages/sponsors.tsx
 import Image from 'next/image';
-import nsf from '@/images/nsf_logo.png'
+import nsf from '@/images/nsf_no_text.jpeg'
 import ucm from '@/images/ucm_logo.png'
 import { Button } from '@/components/Button'
 
@@ -15,8 +15,7 @@ export function Sponsors() {
           <Image
             src={nsf}
             alt="Sponsor 1"
-            width={450}
-            height={0}
+            width={220}
             className="object-contain"
           />
         </div>
@@ -27,7 +26,6 @@ export function Sponsors() {
             src={ucm}
             alt="Sponsor 2"
             width={200}
-            height={0}
             className="object-contain"
           />
         </div>

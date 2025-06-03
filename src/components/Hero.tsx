@@ -68,7 +68,7 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <div className="flex items-center justify-between flex-wrap gap-0">
-              <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
+              <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-5xl">
                 Deep Learn <br />Academy
               </h1>
               <div className="w-30 flex-shrink-0">
