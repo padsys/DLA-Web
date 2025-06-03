@@ -15,7 +15,7 @@ import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/padsys_logo.png'
 import xiaoyi from '@/images/luxi.jpg'
 import darren from '@/images/DarrenNg.jpg'
-import adam from '@/images/adam.jpg'
+import adam from '@/images/adam.png'
 import aryana from '@/images/aryana.jpeg'
 
 function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
