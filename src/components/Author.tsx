@@ -17,6 +17,7 @@ import xiaoyi from '@/images/luxi.jpg'
 import darren from '@/images/DarrenNg.jpg'
 import adam from '@/images/adam.png'
 import aryana from '@/images/aryana.jpeg'
+import jasleen from '@/images/jasleen.jpeg'
 
 function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -75,7 +76,7 @@ export function Author() {
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={xiaoyi}
-                  alt="Xiaoyi Lu profile"
+                  alt="XL"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
@@ -91,7 +92,7 @@ export function Author() {
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={darren}
-                  alt="Darren Ng profile"
+                  alt="DN"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
@@ -107,7 +108,7 @@ export function Author() {
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={adam}
-                  alt="Jane Doe profile"
+                  alt="AW"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
@@ -123,7 +124,7 @@ export function Author() {
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={aryana}
-                  alt="Alan Smith profile"
+                  alt="AN"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
@@ -139,7 +140,7 @@ export function Author() {
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={authorImage}
-                  alt="Emily Johnson profile"
+                  alt="SC"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
@@ -154,7 +155,7 @@ export function Author() {
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={jasleen}
                   alt="JB"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />

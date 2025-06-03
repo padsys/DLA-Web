@@ -10,16 +10,16 @@ export function Sponsors() {
     <div className="flex flex-col items-center justify-center bg-white px-5 text-center">
       <h1 className="text-4xl font-bold text-gray-800 mb-6">Our Sponsors</h1>
 
-      <div className="grid grid-cols-3 gap-10">
+      <div className="grid grid-cols-2 gap-10">
         {/* Sponsor 1 */}
-        <div className="flex justify-center">
+        {/* <div className="flex justify-center">
           <Image
             src={nsf}
             alt="NSF"
             width={205}
             className="object-contain"
           />
-        </div>
+        </div> */}
 
         <div className="relative h-50 w-50 overflow-hidden rounded-full">
             <Image
