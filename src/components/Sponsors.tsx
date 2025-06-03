@@ -15,7 +15,7 @@ export function Sponsors() {
           <Image
             src={nsf}
             alt="Sponsor 1"
-            width={350}
+            width={450}
             height={0}
             className="object-contain"
           />

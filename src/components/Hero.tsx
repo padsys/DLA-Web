@@ -20,7 +20,7 @@ function Testimonial() {
   return (
     <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left -translate-x-20">
       <div className="flex justify-center text-blue-600 lg:justify-start">
-        <div className="w-50 h-20 flex-shrink-0">
+        {/* <div className="w-50 h-20 flex-shrink-0">
           <Image
             src={DLA_logo}
             alt="Logo"
@@ -28,13 +28,19 @@ function Testimonial() {
             height={500}
             className="object-contain"
           />
-        </div>
+        </div> */}
       </div>
-      <blockquote className="ml-55">
+      <blockquote className="ml-0">
         <p className="font-display text-xl font-medium text-slate-900">
-          AI is the future for children—and children are the future of AI.
+          "AI is the future for children—and children are the future of AI"
         </p>
       </blockquote>
+      <figcaption className="mt-2 text-sm text-slate-500">
+        <strong className="font-semibold text-blue-600 before:content-['—_']">
+          Prof. Xiaoyi Lu
+        </strong>
+        , Initiator and Funder of Deep Learn Academy
+      </figcaption>
     </figure>
   )
 }
@@ -42,7 +48,7 @@ function Testimonial() {
 export function Hero() {
   return (
     <header className="overflow-hidden bg-slate-100 lg:bg-transparent lg:px-5">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-16 pt-16 md:pt-20 lg:grid-cols-12 lg:gap-y-20 lg:px-3 lg:pt-20 lg:pb-36 xl:py-32">
+      <div className="mx-auto grid max-w-6xl grid-cols-1 grid-rows-[auto_1fr] gap-y-12 pt-4 md:pt-8 lg:grid-cols-12 lg:gap-y-12 lg:px-3 lg:pt-8 lg:pb-24 xl:py-16">
         <div className="relative flex items-end lg:col-span-5 lg:row-span-2">
           <div className="absolute -top-20 right-1/2 -bottom-12 left-0 z-10 rounded-br-6xl bg-blue-600 text-white/10 md:bottom-8 lg:-inset-y-32 lg:right-full lg:left-[-100vw] lg:-mr-40">
             <GridPattern
@@ -61,9 +67,20 @@ export function Hero() {
         </div>
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
+            <div className="flex items-center justify-between flex-wrap gap-0">
             <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              Deep Learn Academy
+              Deep Learn <br />Academy
             </h1>
+            <div className="w-30 h-0 flex-shrink-0 -translate-x-10 -translate-y-15">
+              <Image
+                src={DLA_logo}
+                alt="Logo"
+                width={500}
+                height={500}
+                className="object-contain"
+              />
+            </div>
+            </div>
             <p className="mt-4 text-3xl text-slate-600">
               Give your children a head start in AI by enrolling them in Deep Learn Academy. They will learn foundational concepts
               in AI that is both fun and impactful. Apply today to our <b>free</b> course and spark your child's interest for AI!

@@ -13,6 +13,10 @@ import Link from 'next/link'
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/padsys_logo.png'
+import xiaoyi from '@/images/luxi.jpg'
+import darren from '@/images/DarrenNg.jpg'
+import adam from '@/images/adam.jpg'
+import aryana from '@/images/aryana.jpeg'
 
 function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -34,12 +38,12 @@ export function Author() {
       </div>
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-slate-50 pt-px sm:rounded-6xl">
-          <div className="relative mx-auto -mt-16 h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-64 md:w-64 md:[shape-outside:circle(40%)] lg:mr-20 lg:h-72 lg:w-72">
+          <div className="relative mx-auto -mt-10 h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
             <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={authorImage}
               alt=""
-              sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+              sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
             />
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
@@ -67,12 +71,12 @@ export function Author() {
 
             {/* Author 1 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={xiaoyi}
                   alt="Xiaoyi Lu profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
@@ -83,12 +87,12 @@ export function Author() {
 
             {/* Author 2 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={darren}
                   alt="Darren Ng profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
@@ -99,12 +103,12 @@ export function Author() {
 
             {/* Author 3 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={adam}
                   alt="Jane Doe profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
@@ -115,12 +119,12 @@ export function Author() {
 
             {/* Author 4 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={aryana}
                   alt="Alan Smith profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
@@ -131,44 +135,44 @@ export function Author() {
 
             {/* Author 5 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={authorImage}
                   alt="Emily Johnson profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
-                <h2 className="text-2xl font-semibold text-gray-800">Still Ben</h2>
+                <h2 className="text-2xl font-semibold text-gray-800">Still Ben Cabal</h2>
                 <p className="mt-2 text-gray-600">UG Student</p>
               </div>
             </div>
 
             {/* Author 6 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={authorImage}
-                  alt="David Lee profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  alt="JB"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
-                <h2 className="text-2xl font-semibold text-gray-800">Jasleen</h2>
+                <h2 className="text-2xl font-semibold text-gray-800">Jasleen Bhandal</h2>
                 <p className="mt-2 text-gray-600">UG Student</p>
               </div>
             </div>
 
             {/* Author 7 */}
             <div className="flex flex-col items-center text-center">
-              <div className="relative h-44 w-44 overflow-hidden rounded-full bg-slate-200 md:h-64 md:w-64 lg:h-72 lg:w-72">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
                   src={authorImage}
-                  alt="David Lee profile"
-                  sizes="(min-width: 1024px) 18rem, (min-width: 768px) 16rem, 11rem"
+                  alt="NB"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
               </div>
               <div className="mt-4">
