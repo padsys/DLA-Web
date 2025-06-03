@@ -68,16 +68,16 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <div className="flex items-center justify-between flex-wrap gap-0">
-              <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-5xl">
+              <h1 className="font-display text-4xl sm:text-5xl font-extrabold text-slate-900 leading-tight">
                 Deep Learn <br />Academy
               </h1>
-              <div className="w-25 flex-shrink-0">
+              <div className="w-20 h-20 sm:w-24 sm:h-24 flex-shrink-0">
                 <Image
                   src={DLA_logo}
                   alt="Logo"
                   width={400}
                   height={400}
-                  className="object-contain"
+                  className="object-contain h-full w-full"
                 />
               </div>
             </div>
