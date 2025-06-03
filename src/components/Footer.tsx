@@ -7,7 +7,7 @@ export function Footer() {
         <GridPattern x="50%" />
       </div>
       <div className="relative text-center text-sm text-slate-600">
-        <p>Copyright &copy; {new Date().getFullYear()} The University of California, Merced </p>
+        <p>Copyright &copy; {new Date().getFullYear()} PADSYS Lab at The University of California, Merced </p>
         <p>All rights reserved.</p>
       </div>
       <div className="relative text-center text-sm text-slate-600 ">
