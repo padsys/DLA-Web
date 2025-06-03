@@ -18,7 +18,7 @@ import DLA_logo from '@/images/DLA_logo.png'
 
 function Testimonial() {
   return (
-    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left -translate-x-20">
+    <figure className="relative mx-auto max-w-md text-center lg:mx-0 lg:text-left">
       <div className="flex justify-center text-blue-600 lg:justify-start">
         {/* <div className="w-50 h-20 flex-shrink-0">
           <Image
@@ -35,7 +35,7 @@ function Testimonial() {
           "AI is the future for children—and children are the future of AI"
         </p>
       </blockquote>
-      <figcaption className="mt-2 text-sm text-slate-500">
+      <figcaption className="mt-2 ml-0 text-sm text-slate-500">
         <strong className="font-semibold text-blue-600 before:content-['—_']">
           Prof. Xiaoyi Lu
         </strong>
@@ -68,18 +68,18 @@ export function Hero() {
         <div className="bg-white pt-16 lg:col-span-7 lg:bg-transparent lg:pt-0 lg:pl-16 xl:pl-20">
           <div className="mx-auto px-4 sm:px-6 md:max-w-2xl md:px-4 lg:px-0">
             <div className="flex items-center justify-between flex-wrap gap-0">
-            <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
-              Deep Learn <br />Academy
-            </h1>
-            <div className="w-30 h-0 flex-shrink-0 -translate-x-10 -translate-y-15">
-              <Image
-                src={DLA_logo}
-                alt="Logo"
-                width={500}
-                height={500}
-                className="object-contain"
-              />
-            </div>
+              <h1 className="font-display text-5xl font-extrabold text-slate-900 sm:text-6xl">
+                Deep Learn <br />Academy
+              </h1>
+              <div className="w-30 flex-shrink-0">
+                <Image
+                  src={DLA_logo}
+                  alt="Logo"
+                  width={500}
+                  height={500}
+                  className="object-contain"
+                />
+              </div>
             </div>
             <p className="mt-4 text-3xl text-slate-600">
               Give your children a head start in AI by enrolling them in Deep Learn Academy. They will learn foundational concepts
