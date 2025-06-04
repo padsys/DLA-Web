@@ -128,7 +128,7 @@ export function Author() {
                 />
               </div>
               <div className="mt-4">
-                <Link href="https://padsys.org/">
+                <Link href="https://padsys.org/people/adam-weingram.html">
                 <h2 className="text-2xl font-semibold text-gray-800">Adam Weingram</h2>
                 </Link>
                 <p className="mt-2 text-gray-600">PhD Student</p>

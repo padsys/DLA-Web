@@ -21,10 +21,11 @@ export function Sponsors() {
           />
         </div> */}
 
-        <div className="relative h-50 w-50 overflow-hidden rounded-full">
+        <div className="flex justify-center overflow-hidden rounded-full">
             <Image
               className="flex justify-center"
               src={padsys}
+              width={200}
               alt="PADSYS"
             />
         </div>
