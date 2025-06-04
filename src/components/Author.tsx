@@ -13,6 +13,7 @@ import Link from 'next/link'
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
 import authorImage from '@/images/padsys_blue_logo.png'
+import padsys_black from '@/images/padsys_logo.png'
 import xiaoyi from '@/images/luxi.jpg'
 import darren from '@/images/DarrenNg.jpg'
 import adam from '@/images/adam.png'
@@ -155,7 +156,7 @@ export function Author() {
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={padsys_black}
                   alt="SC"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
@@ -187,7 +188,7 @@ export function Author() {
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={authorImage}
+                  src={padsys_black}
                   alt="NB"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
