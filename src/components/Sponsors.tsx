@@ -1,7 +1,7 @@
 // pages/sponsors.tsx
 import Image from 'next/image';
 import nsf from '@/images/nsf_no_text.jpeg'
-import padsys from '@/images/padsys_logo.png'
+import padsys from '@/images/padsys_blue_logo.png'
 import ucm from '@/images/ucm_logo.png'
 import { Button } from '@/components/Button'
 
@@ -43,9 +43,11 @@ export function Sponsors() {
         <h1 className="text-md font-bold text-gray-800 mt-10">
             If you are interested in sponsoring the Deep Learn Academy, please feel free to contact us.
         </h1>
-        <Button href="https://padsys.org/people/xiaoyi-lu.html" color="blue">
-        Contact Us!
-        </Button>
+        <p className="mt-8">
+            <Button href="https://sites.ucmerced.edu/luxi" color="blue">
+            Contact Us!
+            </Button>
+        </p>
         </div>
   );
 }

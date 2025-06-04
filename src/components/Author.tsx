@@ -12,7 +12,7 @@ import Link from 'next/link'
 
 import { GridPattern } from '@/components/GridPattern'
 import { SectionHeading } from '@/components/SectionHeading'
-import authorImage from '@/images/padsys_logo.png'
+import authorImage from '@/images/padsys_blue_logo.png'
 import xiaoyi from '@/images/luxi.jpg'
 import darren from '@/images/DarrenNg.jpg'
 import adam from '@/images/adam.png'
@@ -40,12 +40,14 @@ export function Author() {
       <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
         <div className="bg-slate-50 pt-px sm:rounded-6xl">
           <div className="relative mx-auto -mt-10 h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
+            <a href="https://padsys.org/">
             <Image
               className="absolute inset-0 h-full w-full object-cover"
               src={authorImage}
               alt=""
               sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
             />
+            </a>
           </div>
           <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
             {/* <SectionHeading number="5" id="author-title">
@@ -63,7 +65,15 @@ export function Author() {
               record of student success and active involvement in advanced topics—across all age 
               and skill levels. This summer, your child will join a talented and motivated cohort, 
               ready to explore the frontiers of AI and technology. 
-              {/* Our team is excited to meet you—are you ready to join us? */}
+            </p>
+            <p className="mt-8">
+              <Link
+                href="https://padsys.org/"
+                className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
+              >
+                {/* <XIcon className="h-10 w-10 fill-current" /> */}
+                <span className="ml-4">More about PADSYS</span>
+              </Link>
             </p>
             <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
               <span className="block text-blue-600">Our Team</span>
@@ -81,7 +91,9 @@ export function Author() {
                 />
               </div>
               <div className="mt-4">
+                <Link href="https://padsys.org/people/xiaoyi-lu.html">
                 <h2 className="text-2xl font-semibold text-gray-800">Xiaoyi Lu</h2>
+                </Link>
                 <p className="mt-2 text-gray-600">Associate Professor</p>
               </div>
             </div>
@@ -97,7 +109,9 @@ export function Author() {
                 />
               </div>
               <div className="mt-4">
+                <Link href="https://padsys.org/people/darren-ng.html">
                 <h2 className="text-2xl font-semibold text-gray-800">Darren Ng</h2>
+                </Link>
                 <p className="mt-2 text-gray-600">PhD Student</p>
               </div>
             </div>
@@ -113,7 +127,9 @@ export function Author() {
                 />
               </div>
               <div className="mt-4">
+                <Link href="https://padsys.org/">
                 <h2 className="text-2xl font-semibold text-gray-800">Adam Weingram</h2>
+                </Link>
                 <p className="mt-2 text-gray-600">PhD Student</p>
               </div>
             </div>
@@ -184,16 +200,6 @@ export function Author() {
 
 
           </div>
-
-            <p className="mt-8">
-              <Link
-                href="https://padsys.org/"
-                className="inline-flex items-center text-base font-medium tracking-tight text-slate-900"
-              >
-                {/* <XIcon className="h-10 w-10 fill-current" /> */}
-                <span className="ml-4">More about PADSYS</span>
-              </Link>
-            </p>
           </div>
         </div>
       </div>

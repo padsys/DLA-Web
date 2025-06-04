@@ -37,7 +37,11 @@ function Testimonial() {
       </blockquote>
       <figcaption className="mt-2 ml-0 text-sm text-slate-500">
         <strong className="font-semibold text-blue-600 before:content-['—_']">
-          Prof. Xiaoyi Lu
+          <Link
+            href="https://sites.ucmerced.edu/luxi"
+          >
+            <span className="ml-4">Prof. Xiaoyi Lu</span>
+          </Link>
         </strong>
         , Initiator and Funder of Deep Learn Academy
       </figcaption>
