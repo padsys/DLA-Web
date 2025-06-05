@@ -20,6 +20,7 @@ import adam from '@/images/adam.png'
 import aryana from '@/images/aryana.jpeg'
 import jasleen from '@/images/jasleen.jpeg'
 import jayesh from '@/images/jayesh.jpeg'
+import nachiket from '@/images/nachiket.png'
 
 function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -200,7 +201,7 @@ export function Author() {
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
                   className="absolute inset-0 h-full w-full object-cover"
-                  src={padsys_black}
+                  src={nachiket}
                   alt="NB"
                   sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
                 />
