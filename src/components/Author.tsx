@@ -19,6 +19,7 @@ import darren from '@/images/DarrenNg.jpg'
 import adam from '@/images/adam.png'
 import aryana from '@/images/aryana.jpeg'
 import jasleen from '@/images/jasleen.jpeg'
+import jayesh from '@/images/jayesh.jpeg'
 
 function XIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -81,7 +82,6 @@ export function Author() {
             </p>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-32">
 
-            {/* Author 1 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
@@ -99,7 +99,6 @@ export function Author() {
               </div>
             </div>
 
-            {/* Author 2 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
@@ -117,7 +116,6 @@ export function Author() {
               </div>
             </div>
 
-            {/* Author 3 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
@@ -135,7 +133,6 @@ export function Author() {
               </div>
             </div>
 
-            {/* Author 4 */}
             <div className="flex flex-col items-center text-center">
               <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
                 <Image
@@ -147,6 +144,21 @@ export function Author() {
               </div>
               <div className="mt-4">
                 <h2 className="text-2xl font-semibold text-gray-800">Aryana Nemum</h2>
+                <p className="mt-2 text-gray-600">UG Student</p>
+              </div>
+            </div>
+
+            <div className="flex flex-col items-center text-center">
+              <div className="relative mx-auto h-28 w-28 overflow-hidden rounded-full bg-slate-200 md:float-right md:h-40 md:w-40 md:[shape-outside:circle(40%)] lg:mr-10 lg:h-48 lg:w-48">
+                <Image
+                  className="absolute inset-0 h-full w-full object-cover"
+                  src={jayesh}
+                  alt="JC"
+                  sizes="(min-width: 1024px) 12rem, (min-width: 768px) 10rem, 7rem"
+                />
+              </div>
+              <div className="mt-4">
+                <h2 className="text-2xl font-semibold text-gray-800">Jayesh Chaudhary</h2>
                 <p className="mt-2 text-gray-600">UG Student</p>
               </div>
             </div>
